@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/largeText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:text="[系统菜单]"
+        android:textColor="@color/header" />
+
+    <Button
+        android:id="@+id/btDowork"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:text="数据录入" />
+    
+        <Button
+        android:id="@+id/btQuery"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:text="已上传数据查询" />
+
+    <Button
+        android:id="@+id/btDownload"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:text="数据同步" />
+    
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+	        第一次进入系统，必须点击“数据同步”！
+	        " />
+
+</LinearLayout>
